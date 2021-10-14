@@ -21,3 +21,4 @@ X = matrix(c(0,0,0,0,
 X
 solve(X)
 solve(t(X)%*%X)
+b = solve(t(X)%*%X)%*%t(X)
