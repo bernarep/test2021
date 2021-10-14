@@ -1,4 +1,5 @@
 # Group effect and individual effect can't be estimated at the same time
+# Test 00
 sdata = data.frame(y=rnorm(12),
                    id=rep(1:4,3),
                    group=rep(c(2,1,1,2),3))
